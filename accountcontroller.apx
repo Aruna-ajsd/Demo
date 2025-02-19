@@ -1,0 +1,9 @@
+public class Accountcontroller
+{
+  publict List<Account> getAllAccounts()
+  {
+    List<Account> lstAcccount =[select id,name from account];
+    System.debug('Account '+lstaccount);
+    return lstaccount;
+  }
+}
